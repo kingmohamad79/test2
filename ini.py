@@ -9,6 +9,8 @@ class Human:
     def run(self):
 
         print(f'moving by {self.number_of_legs} leg')
+    def how_old(self):
+        print(f"i have {self.age} years old !")
 
 mohammad = Human(23,'bachelor')
 ali = Human(25, "diploma")
