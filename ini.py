@@ -6,8 +6,15 @@ class Human:
         self.age = age # instance atribute
         self.education = education # instance atribute
 
+    def run(self):
+
+        print(f'moving by {self.number_of_legs} leg')
+
 mohammad = Human(23,'bachelor')
 ali = Human(25, "diploma")
 
 print(mohammad.age)
 print(ali.age)
+
+mohammad.run()
+ali.run()
