@@ -15,8 +15,11 @@ class Human:
 mohammad = Human(23,'bachelor')
 ali = Human(25, "diploma")
 
-print(mohammad.age)
-print(ali.age)
+Human.number_of_legs = 5
+mohammad.number_of_legs = 1
+
+print(mohammad.number_of_legs)
+print(ali.number_of_legs)
 
 mohammad.run()
 ali.run()
